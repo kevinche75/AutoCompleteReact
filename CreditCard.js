@@ -5,7 +5,7 @@ export class CreditCard extends React.Component{
 
    consrtuctor(props){
       super(props) 
-      state = {
+       this.state = {
          number = '', 
          data = '', 
          owner = '', 
